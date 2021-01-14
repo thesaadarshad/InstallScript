@@ -14,6 +14,17 @@
 # ./odoo-install
 ################################################################################
 
+apt-get update
+apt-get install vim
+apt-get install sudo
+sudo apt-get install software-properties-common
+sudo apt install python3-pip
+sudo apt-get install wget
+sudo apt-get install gdebi-core
+
+
+
+
 OE_USER="odoo"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
